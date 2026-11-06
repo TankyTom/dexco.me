@@ -3,30 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dexco</title>
-<meta name="description" content="Small, careful apps for the Mac.">
-<link rel="icon" href="tribar/img/favicon.png">
-<link rel="stylesheet" href="tribar/style.css">
+<title>dexco</title>
+<meta name="description" content="dexco makes small, careful apps for the Mac.">
+<meta name="theme-color" content="#e8e8e5">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@800&family=IBM+Plex+Mono:wght@500&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<header class="wrap top">
-  <span class="brand">Dexco</span>
-</header>
-<main class="wrap hero">
-  <h1>Small, careful apps<br>for the Mac.</h1>
-  <p class="lead">Made by Kyle Reid.</p>
-  <div class="grid" style="max-width:420px;margin:24px auto 0;text-align:left">
-    <a class="card" href="tribar/" style="display:flex;gap:16px;align-items:center;color:inherit;text-decoration:none">
-      <img src="tribar/img/icon.png" alt="" style="width:64px;height:64px;border-radius:15px">
-      <span><h3>Tribar</h3><p>Battery, Wi-Fi and volume in one menu bar icon.</p></span>
-    </a>
-  </div>
-</main>
-<footer>
-  <div class="wrap">
+<div class="frame">
+  <header class="bar">
+    <a class="wordmark" href="./" aria-label="dexco home">dexco</a>
+    <nav><a href="tribar/support/">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="home-hero">
+      <h1 class="big">dexco<span class="cursor" aria-hidden="true"></span></h1>
+      <p>Small, careful apps for the Mac. Each one does one job well and stays out of your way.</p>
+    </section>
+
+    <section class="directory" aria-labelledby="apps">
+      <h2 id="apps">Apps</h2>
+      <a class="app-row" href="tribar/">
+        <img src="tribar/img/icon.png" width="72" height="72" alt="">
+        <span>
+          <span class="name">Tribar</span>
+          <span class="what" style="display:block">Battery, Wi-Fi and volume in one menu bar icon.</span>
+        </span>
+        <span class="state"><span class="lamp on"></span>&nbsp; Mac App Store soon</span>
+      </a>
+      <div class="app-row empty" aria-hidden="true">
+        <span class="slot"></span>
+        <span>Next app in the works.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
     <span>© 2026 Kyle Reid</span>
-    <span><a href="tribar/support/">Contact</a></span>
-  </div>
-</footer>
+    <nav><a href="tribar/support/">Contact</a></nav>
+  </footer>
+</div>
 </body>
 </html>
