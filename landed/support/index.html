@@ -30,12 +30,17 @@
 
   <details>
     <summary>How do I swap the Dock’s Downloads stack for Landed?</summary>
-    <p>Right-click the Downloads stack at the right end of your Dock and choose Options → Remove from Dock. Then drag Landed in the Dock to the end of your apps, just before the divider, so it sits where the stack used to be. Your Downloads folder itself isn’t touched.</p>
+    <p>Right-click the Downloads stack at the right end of your Dock and choose Remove from Dock. The first time Landed opens it shows a small card with a Downloads tile: drag that tile into the Dock, between the divider and the Bin. Click it once and you’re set. Your Downloads folder itself isn’t touched.</p>
+  </details>
+
+  <details>
+    <summary>I removed Landed’s tile from the Dock. How do I get it back?</summary>
+    <p>Open Landed from Applications or Spotlight and the card appears again. Or open Settings, find Show Landed in, and click Add to Dock… under The Dock, next to the Bin.</p>
   </details>
 
   <details>
     <summary>Can I use Landed from the menu bar instead?</summary>
-    <p>Yes. Open Landed’s Settings and set Show icon in to Menu bar, Dock, or both. If you hide the Dock icon, Settings is the gear at the bottom of the shelf.</p>
+    <p>Yes. In Landed’s Settings, under Show Landed in, tick The menu bar. Tick any mix of the menu bar and the two Dock spots; Landed won’t let you untick the last one. Settings is always the gear at the top right of the shelf.</p>
   </details>
 
   <details>
@@ -49,13 +54,13 @@
   </details>
 
   <details>
-    <summary>Why is there only a full progress bar for Safari?</summary>
-    <p>Safari records how big a download will be, so Landed can show a bar and percentage. For other browsers Landed shows how much has arrived so far, and asks the website for the full size when it can.</p>
+    <summary>Which browsers show live progress?</summary>
+    <p>Safari, Chrome, Edge and Firefox all show a live bar with the percentage and size. Firefox doesn’t share an estimate of time left, so its rows leave that out. Chrome and Edge don’t share a download’s name until it finishes, so those rows can say “Unnamed download” until then.</p>
   </details>
 
   <details>
     <summary>Can Landed cancel a download?</summary>
-    <p>No app can cancel another app’s download. The cancel button opens your browser’s Downloads list so you can cancel it there. macOS asks permission the first time.</p>
+    <p>Yes. Click the × on a download in progress and Landed cancels it in Safari, Chrome, Edge or Firefox, and clears away the partial file. If a browser ever doesn’t respond, Landed opens that browser’s own Downloads list instead.</p>
   </details>
 
   <details>
@@ -70,7 +75,7 @@
 
   <details>
     <summary>How do I uninstall Landed?</summary>
-    <p>If you’ve stashed any files, bring them back first from the bar at the top of the shelf. Then quit Landed and drag it from Applications to the Bin. To remove its cache too, delete ~/Library/Application Support/Landed.</p>
+    <p>If you’ve stashed any files, bring them back first from the bar at the top of the shelf. Then drag Landed’s tile out of the Dock, quit Landed, and drag it from Applications to the Bin. To remove its settings and cache too, delete ~/Library/Containers/me.dexco.Landed.</p>
   </details>
 
   <details>

@@ -21,7 +21,7 @@
 
   <main class="doc">
   <h1>Privacy Policy</h1>
-  <p class="meta">Last updated 7 November 2026</p>
+  <p class="meta">Last updated 8 November 2026</p>
 
   <p><strong>Landed doesn’t collect, store or share any personal data.</strong> It has no accounts, no analytics, no advertising and no tracking. Everything it shows is read on your Mac, and nothing about you or your files is sent to us.</p>
 
@@ -35,13 +35,13 @@
   </ul>
 
   <h2>What Landed stores</h2>
-  <p>Everything stays on your Mac. Landed notes the date a file landed and whether it’s pinned on the file itself, and keeps a small cache of file fingerprints, mounted disk images and stashed files in its own folder at <strong>~/Library/Application Support/Landed</strong>.</p>
+  <p>Everything stays on your Mac. Landed notes the date a file landed and whether it’s pinned on the file itself, and keeps its settings and a small cache of file fingerprints, mounted disk images and stashed files in its own sandboxed folder at <strong>~/Library/Containers/me.dexco.Landed</strong>. Landed runs in Apple’s App Sandbox.</p>
 
   <h2>Network</h2>
   <p>Landed makes one kind of network request. When a download is still in progress and the browser hasn’t recorded its full size, Landed asks the website the file is coming from how big it is, so it can show a progress bar. It asks for the size only, downloads nothing, and sends no information about you. Choosing <strong>Download Again</strong> or <strong>Copy Source Link</strong> uses the file’s original web address, only when you ask.</p>
 
-  <h2>Controlling your browser</h2>
-  <p>If you click the cancel button on a download that’s in progress, Landed opens your browser’s own Downloads list so you can cancel it there. macOS asks your permission the first time. Landed does nothing else with your browser.</p>
+  <h2>Your browser</h2>
+  <p>Browsers tell macOS how far along each download is. Landed reads that to show progress, and when you click cancel it asks macOS to stop that download. If that doesn’t work, Landed opens your browser’s own Downloads list. Landed doesn’t control your browser or read anything else from it.</p>
 
   <h2>Notifications</h2>
   <p>If you stash a file, Landed posts a local notification on your Mac when it comes back. Nothing is sent to a server.</p>
